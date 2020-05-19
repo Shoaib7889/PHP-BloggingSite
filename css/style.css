@@ -1,0 +1,148 @@
+/*@import url(css/font-awesome.min.css);*/
+*{
+/*
+  margin: 0;
+    padding: 0;
+*/
+}
+
+body{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+/*    font-family: FontAwsome*/
+    position: relative;
+}
+.navbar-brand img{
+    margin-top: -5px;
+}
+.jumbotron{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+}
+.jumbotron .details{
+/*    details upar uth gai absolute hone ki wja se or pic pi6e chali gai*/
+    position: absolute;
+    left: 30px;top:20px;
+}
+.jumbotron img{
+    width: 100%;
+}
+
+/*serch for post*/
+.widget{
+    background: #EEEEEE;
+    border-radius: 3px;
+    
+}
+.widget .icons i{
+    font-size: 60px;
+    color: red;
+}
+
+.popular img{
+    width: 100%;
+    margin-left: 10px;
+}
+section .widget{
+    margin-bottom: 20px;
+}
+div.widget .details{
+    margin-left: -9px;
+}
+
+
+
+/*slider*/
+.slider img{
+    height: 500px;
+}
+
+/*post area*/
+.post .date{
+    font-size: 50px;
+    line-height: 30px;
+}
+.post .year{
+    margin-left: 10px;
+}
+.profile-picutre img{
+    height: 50px;
+    width: 50px;
+    border-radius:50px;
+    
+}
+
+#comment-img{
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 50px;
+    width: 50px;
+}
+#comment-text{
+    margin-left: -50px;
+}
+
+
+/*pagination*/
+.pagin{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*       contact-us          */
+.container {
+    background: #EFF0F2;
+    border-radius: 10px;
+}
+
+
+
+
+/*       post             */
+/*
+.post{
+    height: 100px;
+    width: 100%;
+    background: #EFF0F2;
+    border-radius: 2px;
+}
+*/
+
+/*related-post*/
+.related-post img{
+    width: 100%;
+}
+/*author-area*/
+
+.author-area img{
+    width: 100%;
+    border-radius: 50% 50%;
+}
+.comment-area img{
+    width: 100%;
+}
+
+
+
+/*footer*/
+footer{
+    position: absolute;
+    bottom: 0;
+    /*height: 40px;*/
+    width: 100%;
+    left: 0;
+    background-color: grey;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+footer span{
+    display: flex;
+    justify-content: center;
+    
+}
